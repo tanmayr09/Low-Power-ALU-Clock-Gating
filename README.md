@@ -23,7 +23,17 @@ This project implements a 16-bit Arithmetic Logic Unit supporting 8 operations. 
 ├── tb/
 │   ├── 16_bit_alu_low_power_tb.v   # Testbench for clock-gated version
 │   └── basic_16_bit_alu_tb.v       # Testbench for basic version
-└── constraints.xdc                  # Timing constraints
+├── docs/
+│   └── Design_Concepts.md          # Detailed design methodology and concepts
+├── waveforms/
+│   ├── README.md                   # Waveform documentation
+│   ├── baseline_power_report.png   # Basic ALU power report
+│   ├── basic_16_bit_alu.png        # Basic ALU simulation waveform
+│   ├── low_power_16_bit_alu.png    # Clock-gated ALU waveform
+│   └── low_power_alu_power_report.png  # Clock-gated ALU power report
+├── constraints.xdc                  # Timing constraints (100 MHz)
+├── .gitignore                       # Git ignore file
+└── README.md                        # This file
 ```
 
 ## How It Works
