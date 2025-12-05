@@ -1,0 +1,34 @@
+# Vivado Project Files
+*.jou
+*.log
+*.str
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+
+# Simulation Files
+*.vcd
+*.wdb
+*.wcfg
+*.saif
+xsim.dir/
+webtalk*
+
+# Synthesis Files
+*.dcp
+*.bit
+*.ltx
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE Files
+.vscode/
+.idea/
